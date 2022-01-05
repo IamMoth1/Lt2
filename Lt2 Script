@@ -1,0 +1,303 @@
+-- Objects
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SaveSlot = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local DMoney = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Store = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Restore = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local DropAxes = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Load = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local CountAxes = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Slot = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+
+
+-- Properties
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "LT2DupeGu"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0312304813, 0, 0.294464082, 0)
+MainFrame.Size = UDim2.new(0, 240, 0, 300)
+MainFrame.ZIndex = 2
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = MainFrame
+
+SaveSlot.Name = "SaveSlot"
+SaveSlot.Parent = MainFrame
+SaveSlot.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+SaveSlot.BorderSizePixel = 0
+SaveSlot.Position = UDim2.new(0.0600001514, 0, 0.299999952, 0)
+SaveSlot.Size = UDim2.new(0, 100, 0, 50)
+SaveSlot.ZIndex = 2
+SaveSlot.Font = Enum.Font.SourceSansBold
+SaveSlot.Text = "Save Slot"
+SaveSlot.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveSlot.TextSize = 18.000
+
+UICorner_10.Parent = SaveSlot
+
+DMoney.Name = "DMoney"
+DMoney.Parent = MainFrame
+DMoney.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+DMoney.BorderSizePixel = 0
+DMoney.Position = UDim2.new(0.0600001514, 0, 0.766666651, 0)
+DMoney.Size = UDim2.new(0, 100, 0, 50)
+DMoney.ZIndex = 2
+DMoney.Font = Enum.Font.SourceSansBold
+DMoney.Text = "Dupe Money"
+DMoney.TextColor3 = Color3.fromRGB(255, 255, 255)
+DMoney.TextSize = 18.000
+
+UICorner_8.Parent = DMoney
+
+Store.Name = "Store"
+Store.Parent = MainFrame
+Store.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Store.BorderSizePixel = 0
+Store.Position = UDim2.new(0.518333495, 0, 0.299999982, 0)
+Store.Size = UDim2.new(0, 100, 0, 50)
+Store.ZIndex = 2
+Store.Font = Enum.Font.SourceSansBold
+Store.Text = "Store Axe"
+Store.TextColor3 = Color3.fromRGB(255, 255, 255)
+Store.TextSize = 18.000
+
+UICorner_5.Parent = Store
+
+Restore.Name = "Restore"
+Restore.Parent = MainFrame
+Restore.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Restore.BorderSizePixel = 0
+Restore.Position = UDim2.new(0.518333495, 0, 0.533333302, 0)
+Restore.Size = UDim2.new(0, 100, 0, 50)
+Restore.ZIndex = 2
+Restore.Font = Enum.Font.SourceSansBold
+Restore.Text = "Restore Axe"
+Restore.TextColor3 = Color3.fromRGB(255, 255, 255)
+Restore.TextSize = 18.000
+
+UICorner_6.Parent = Restore
+
+DropAxes.Name = "DropAxes"
+DropAxes.Parent = MainFrame
+DropAxes.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+DropAxes.BorderSizePixel = 0
+DropAxes.Position = UDim2.new(0.518333495, 0, 0.766666651, 0)
+DropAxes.Size = UDim2.new(0, 100, 0, 50)
+DropAxes.ZIndex = 2
+DropAxes.Font = Enum.Font.SourceSansBold
+DropAxes.Text = "Drop Axes"
+DropAxes.TextColor3 = Color3.fromRGB(255, 255, 255)
+DropAxes.TextSize = 18.000
+
+UICorner_7.Parent = DropAxes
+
+Load.Name = "Load"
+Load.Parent = MainFrame
+Load.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.0600001514, 0, 0.533333302, 0)
+Load.Size = UDim2.new(0, 100, 0, 50)
+Load.ZIndex = 2
+Load.Font = Enum.Font.SourceSansBold
+Load.Text = "Load Slot"
+Load.TextColor3 = Color3.fromRGB(255, 255, 255)
+Load.TextSize = 18.000
+
+UICorner_9.Parent = Load
+
+CountAxes.Name = "Count Axes"
+CountAxes.Parent = MainFrame
+CountAxes.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CountAxes.BorderSizePixel = 0
+CountAxes.Position = UDim2.new(0.518333495, 0, 0.0666666627, 0)
+CountAxes.Size = UDim2.new(0, 100, 0, 50)
+CountAxes.ZIndex = 2
+CountAxes.Font = Enum.Font.SourceSansBold
+CountAxes.Text = "Count Axes"
+CountAxes.TextColor3 = Color3.fromRGB(255, 255, 255)
+CountAxes.TextSize = 18.000
+
+UICorner_3.Parent = CountAxes
+
+Slot.Name = "Slot"
+Slot.Parent = MainFrame
+Slot.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Slot.Position = UDim2.new(0.0625, 0, 0.0666666701, 0)
+Slot.Size = UDim2.new(0, 100, 0, 50)
+Slot.ZIndex = 2
+Slot.Font = Enum.Font.SourceSansBold
+Slot.Text = "Slot Number"
+Slot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Slot.TextSize = 18.000
+Slot.TextWrapped = true
+
+UICorner_4.Parent = Slot
+
+--Locals
+local MoneyCooldown = false
+local CurrentSlot = game.Players.LocalPlayer:WaitForChild("CurrentSaveSlot").Value
+local ScriptLoadOrSave = false
+local CurrentlySavingOrLoading = game.Players.LocalPlayer:WaitForChild("CurrentlySavingOrLoading")
+
+--Functions
+local function CheckIfSlotAvailable(Slot)
+	for a,b in pairs(game.ReplicatedStorage.LoadSaveRequests.GetMetaData:InvokeServer(game.Players.LocalPlayer)) do 
+		if a == Slot then 
+			for c,d in pairs(b) do 
+				if c == "NumSaves" and d ~= 0 then 
+					return true
+				else
+					return false
+				end
+			end
+		end
+	end
+end
+
+local function CheckSlotNumber() --Checks if the slot number is right
+	if Slot.Text == "1" or Slot.Text == "2" or Slot.Text == "3" or Slot.Text == "4" or Slot.Text == "5" or Slot.Text == "6" then
+		local SlotNumber = tonumber(Slot.Text)
+		return SlotNumber
+	else return false
+	end
+end
+
+local function SendNotification(Title,Text,Duration) -- Sends Notification in the bottom right of the screen
+	game.StarterGui:SetCore("SendNotification", {
+		Title = Title;
+		Text = Text;
+		Icon = nil;
+		Duration = Duration
+	})
+end
+
+SaveSlot.MouseButton1Down:connect(function() --Saves the slot that you want
+	local CheckSlot = CheckSlotNumber()
+	if CheckSlot ~= false then
+		if CurrentSlot ~= -1 then
+			ScriptLoadOrSave = true
+			local SaveSlot = game.ReplicatedStorage.LoadSaveRequests.RequestSave:InvokeServer(CheckSlot)
+			if SaveSlot == true then
+				SendNotification("Save Notification", "Saved your Slot", 2)
+				wait(.5)
+				ScriptLoadOrSave = false
+			elseif SaveSlot == false then
+				SendNotification("Already Saving", "Saving/Loading is currently in Progress", 1)
+				wait(.5)
+				ScriptLoadOrSave = false
+			end
+		else
+			SendNotification("Error", "Load Your Slot First before saving", 1)
+		end
+	else
+		SendNotification("Incorrect Slot", "Enter a number in the upper field", 1)
+	end
+end)
+
+Load.MouseButton1Down:connect(function() --Loads the slot you want
+	ScriptLoadOrSave = true
+	local CheckSlot = CheckSlotNumber()
+	if CheckSlot ~= false then
+		if CheckIfSlotAvailable(CheckSlot) == true then
+			local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(CheckSlot)
+			if LoadSlot == false then
+				SendNotification("Cooldown Notification", "You aren't abled to load now", 1)
+			end
+			if LoadSlot == true then 
+				SendNotification("Reload Notification", "Loaded Your Slot", 2)
+				CurrentSlot = CheckSlot
+			end
+		else
+			SendNotification("Slot not Available", "This Slot is not Available, please choose another slot", 2)
+		end
+	else
+		SendNotification("Incorrect Slot", "Enter a Valid number in the upper field", 1)
+	end
+	ScriptLoadOrSave = false
+end)
+
+Store.MouseButton1Down:connect(function() --Stores the Axes somewhere so you can restore them later
+	Amount = 0
+	for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
+		if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
+			b.Parent = game.Players.LocalPlayer
+			Amount = Amount + 1
+		end
+	end
+	SendNotification("Store Notification", "Stored "..Amount.." Axes, you can restore them later", 2)
+end)
+
+Restore.MouseButton1Down:connect(function() --Restores the axes that you stored with the Store function
+	Amount = 0
+	for a,b in pairs(game.Players.LocalPlayer:GetChildren()) do
+		if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
+			b.Parent = game.Players.LocalPlayer.Backpack
+			Amount = Amount + 1
+		end
+	end
+	SendNotification("Restore Notification", "Restored "..Amount.." Axes that you Stored", 2)
+end)
+
+CountAxes.MouseButton1Down:connect(function() --Counts Axes in your Backpack (Equiped Axes dont Count)
+	Amount = 0
+	for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+		if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
+			Amount = Amount + 1
+		end
+	end
+	SendNotification("Axe Amount", "You have "..Amount.." Axes in your Backpack",2)
+end)
+
+DropAxes.MouseButton1Down:connect(function() --Drops all your Axes
+	Amount = 0
+	for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+		if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
+			game.ReplicatedStorage.Interaction.ClientInteracted:FireServer(b, "Drop tool", game.Players.LocalPlayer.Character.Head.CFrame)
+			Amount = Amount + 1
+		end
+	end
+	SendNotification("Axe Dropped", "Dropped "..Amount.." Axes from your Backpack",5)
+end)
+
+DMoney.MouseButton1Down:connect(function() --Sends the money and will come back after around 2 mins
+	if MoneyCooldown == true then
+		SendNotification("Cooldown Notification", "Wait for your Money to come back",2)
+		return
+	elseif MoneyCooldown == false then
+		MoneyCooldown = true
+		SendNotification("Money Sent", "Wait about 2 minutes for your Money to come back", 5)
+		game.ReplicatedStorage.Transactions.ClientToServer.Donate:InvokeServer(game.Players.LocalPlayer, game.Players.LocalPlayer.leaderstats.Money.Value, 1)
+		SendNotification("Money Received", "You received your money that you have sent earlier", 5)
+		MoneyCooldown = false
+	end
+end)
+
+--Anti Overwrite Slot (Sub-Function)
+while wait(.15) do
+	if CurrentlySavingOrLoading.Value == true and ScriptLoadOrSave == false then
+		repeat 
+			wait(1)
+		until CurrentlySavingOrLoading.Value == false
+		wait(1)
+		CurrentSlot = game.Players.LocalPlayer.CurrentSaveSlot.Value
+		print(CurrentSlot)
+	end
+end
